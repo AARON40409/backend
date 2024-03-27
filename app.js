@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.json({
-        mess: 'hello backend'
+        mess: 'Hello backend'
     });
 });
 const port = 3000
